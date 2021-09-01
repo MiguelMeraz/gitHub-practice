@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header, nav, section, aside, footer{
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+header{
+    border: 1px solid aqua;
+    position: fixed;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.holder{
+
+
+}
+
+.left{
+    float: left;
+    width: 60%;
+}
+
+.right{
+    float: right;
+    width: 40%;
+}
