@@ -8,12 +8,12 @@ body{
 
 .container{
     border: 3px dashed maroon;
-    background-color: lightcyan;
+    background-color: lightsteelblue;
     padding: 50px;
 }
 
 .columns{
-    border: 4px solid black;
+    border: 4px solid maroon;
     float: left; 
     width: 25%;
     background-color: lightslategray;
@@ -24,4 +24,16 @@ body{
     clear: both;
     content: ' ';
     display: block;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+a {
+    background-color: rgb(255, 28, 28);
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
 }
